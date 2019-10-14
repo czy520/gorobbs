@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Gorobbs" width="150rpm"  src="https://github.com/letseeqiji/gorobbs/blob/master/doc/gr.png">
+<img alt="Gorobbs" width="150rpm"  src="https://github.com/czy520/gorobbs/blob/master/doc/gr.png">
  <br>
  轻而快，为实用而构建
 </div>
@@ -11,7 +11,7 @@
 
 ## 简介
 
-[Gorobbs](https://github.com/letseeqiji/gorobbs) 是一款轻巧的内置了全文搜索引擎的的BBS系统, 专为普通用户设计，开箱即用，无需复杂配置。我们的目标是打造最轻量化的分布式BBS系统！
+[Gorobbs](https://github.com/czy520/gorobbs/blob/master/doc/gr.png) 是一款轻巧的内置了全文搜索引擎的的BBS系统, 专为普通用户设计，开箱即用，无需复杂配置。我们的目标是打造最轻量化的分布式BBS系统！
 
 ## 案例
 
@@ -31,33 +31,33 @@
 
 ### 首页
 
-![start](https://github.com/letseeqiji/gorobbs/blob/master/doc/index.png)
+![start](https://github.com/czy520/gorobbs/blob/master/doc/index.png)
 
 ### 登录后效果
 
-![start](https://github.com/letseeqiji/gorobbs/blob/master/doc/login.png)
+![start](https://github.com/czy520/gorobbs/blob/master/doc/login.png)
 
 ### 手机版
 
-![start](https://github.com/letseeqiji/gorobbs/blob/master/doc/mobile.png)
+![start](https://github.com/czy520/gorobbs/blob/master/doc/mobile.png)
 
 ### 编辑帖子
 
-![console](https://github.com/letseeqiji/gorobbs/blob/master/doc/thread.png)
+![console](https://github.com/czy520/gorobbs/blob/master/doc/thread.png)
 
 ### 帖子详情
 
-![post](https://github.com/letseeqiji/gorobbs/blob/master/doc/detail.png)
+![post](https://github.com/czy520/gorobbs/blob/master/doc/detail.png)
 
 ### 后台某页面
 
-![post](https://github.com/letseeqiji/gorobbs/blob/master/doc/tags.png)
+![post](https://github.com/czy520/gorobbs/blob/master/doc/tags.png)
 
 ## 新增界面
 
 ### 第三方登录：微信登录
 
-![post](https://github.com/letseeqiji/gorobbs/blob/master/doc/wechatlogin.png)
+![post](https://github.com/czy520/gorobbs/blob/master/doc/wechatlogin.png)
 
 ## 安装
 

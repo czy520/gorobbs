@@ -218,7 +218,7 @@ CREATE TABLE `bbs_my_favourite` (
   `thread_id` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_bbs_my_favourite_deleted_at` (`deleted_at`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 
 -- ----------------------------
@@ -299,7 +299,7 @@ CREATE TABLE `bbs_post_update_log` (
   `audited` int(11) DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `idx_bbs_post_update_log_deleted_at` (`deleted_at`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- ----------------------------
 -- Records of bbs_post_update_log
@@ -530,11 +530,11 @@ CREATE TABLE `bbs_user_banned` (
   `from_date` timestamp NULL DEFAULT NULL,
   `to_date` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `bbs_ip_banned` (
   `ip` varchar(20) NOT NULL,
   `from_date` timestamp NULL DEFAULT NULL,
   `to_date` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`ip`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
